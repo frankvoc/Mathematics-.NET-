@@ -13,8 +13,8 @@ namespace Mathematics.Test
         public void TestAddNum()
         {
             var math = new BasicMath();
-            var result = math.AddNumbers(2, 3);
-            Assert.True(result == 5);
+            var result = math.MultNumbers(2, 3);
+            Assert.True(result == 6);
         }
     }
 }
