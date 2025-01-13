@@ -9,13 +9,14 @@ namespace Mathematics.Test
 {
     public class BasicMathTest : IClassFixture<BasicMathTestFixture>
     {
+        //all pass currently
+        //change values and run again to test for different values
         [Fact]
         public void TestAddNum()
         {
             var math = new BasicMath();
             var result = math.MultNumbers(2, 3);
             Assert.True(result == 6);
-     
         }
         [Fact]
         public void TestArea()
@@ -28,8 +29,8 @@ namespace Mathematics.Test
         public void TestAvg()
         {
             var avg = new AdvMath();
-            var rrr = avg.CalcAvg(4, 5);
-            Assert.True(rrr == 3);
+            var rrr = avg.CalcAvg(new List<double> { 4,5 });
+            Assert.True(rrr == 4.5);
         }
         [Fact]
         public void TestSqr()
