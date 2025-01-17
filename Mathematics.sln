@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathematics", "Mathematics\Mathematics.csproj", "{50CBCA47-6927-4D0F-8E18-AB20AECA0D8B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathematics.Test", "Mathematics.Test\Mathematics.Test.csproj", "{2625490B-F0F6-418C-8840-8654A6AB327F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathConsoleApp", "MathConsole\MathConsoleApp.csproj", "{BCC4FCC9-6198-42A8-96BB-9CEB09056FA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2625490B-F0F6-418C-8840-8654A6AB327F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2625490B-F0F6-418C-8840-8654A6AB327F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2625490B-F0F6-418C-8840-8654A6AB327F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC4FCC9-6198-42A8-96BB-9CEB09056FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC4FCC9-6198-42A8-96BB-9CEB09056FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC4FCC9-6198-42A8-96BB-9CEB09056FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC4FCC9-6198-42A8-96BB-9CEB09056FA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

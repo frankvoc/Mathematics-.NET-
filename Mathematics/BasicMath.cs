@@ -8,20 +8,20 @@ namespace Mathematics
 {
     public class BasicMath
     {
-        public double AddNumbers(double num1, double num2)
+        public int AddNumbers(int num1, int num2)
         {
             return num1 + num2;
         }
-        public double SubNumbers(double num1, double num2)
+        public int SubNumbers(int num1, int num2)
 
             {
                 return num1 - num2;
             }
-        public double MultNumbers(double num1, double num2)
+        public int MultNumbers(int num1, int num2)
         {
             return num1 * num2;
         }
-        public double DivNumbers(double num1, double num2)
+        public int DivNumbers(int num1, int num2)
         {
             return num1 / num2;
         }
