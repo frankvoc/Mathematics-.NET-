@@ -19,10 +19,10 @@ namespace Mathematics.Test
             Assert.True(result == 6);
         }
         [Fact]
-        public void TestArea()
+        public static void TestArea()
         {
             var area = new AdvMath();
-            var r = area.CalcArea(4, 3);
+            var r = area?.CalcArea(4, 3);
             Assert.True(r == 12);
         }
         [Fact]

@@ -9,19 +9,19 @@ namespace Mathematics
 {
     public class AdvMath
     {
-        public double CalcArea(double height, double width)
+        public static double CalcArea(double height, double width)
         {
             return height * width;
         }
-        public double CalcAvg(List<double> x)
+        public static double CalcAvg(List<double> x)
         {
             return x.Average();
         }
-        public double Squared(double x)
+        public static double Squared(double x)
         {
             return x * x;
         }
-        public double CalcPythagorean(double a, double b)
+        public static double CalcPythagorean(double a, double b)
         {
             return Math.Sqrt(Squared(a)+ Squared(b));
         }

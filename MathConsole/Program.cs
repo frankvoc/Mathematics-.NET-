@@ -3,10 +3,26 @@ using Mathematics;
 
 namespace MathConsoleApp
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
-        {
+        {   //area
+            double area = AdvMath.CalcArea(10, 5);
+            Console.WriteLine("Area of Rectangle: {0}", area);
+
+            //avg
+            List<double> numbers = new List<double> { 2.5, 3.7, 4.8 };
+            double average = AdvMath.CalcAvg(numbers);
+            Console.WriteLine("\nAverage of Numbers: {0}", average);
+
+            //squared
+            double squared = AdvMath.Squared(3);
+            Console.WriteLine("Squared Value: {0}\n", squared);
+
+            //pythag
+            double resultPythagoras = AdvMath.CalcPythagorean(5, 12);
+            Console.WriteLine("Pythagorean Result: {0}", resultPythagoras);
+
             try 
             {
                 string operation;
